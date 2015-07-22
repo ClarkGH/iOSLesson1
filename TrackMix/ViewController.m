@@ -22,4 +22,10 @@
     // Update the view, if already loaded.
 }
 
+- (IBAction)mute:(id)sender {
+}
+
+- (IBAction)takeFloatValueForVolumeFrom:(id)sender {
+}
+
 @end
