@@ -674,7 +674,10 @@
                         <subviews>
                             <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EL0-64-Vnk">
                                 <rect key="frame" x="155" y="47" width="21" height="385"/>
-                                <sliderCell key="cell" continuous="YES" alignment="left" maxValue="11" doubleValue="5" tickMarkPosition="right" sliderType="linear" id="lR5-Gv-G7G"/>
+                                <sliderCell key="cell" continuous="YES" alignment="left" maxValue="11" doubleValue="5.5692930116758248" tickMarkPosition="right" sliderType="linear" id="lR5-Gv-G7G"/>
+                                <connections>
+                                    <action selector="takeFloatValueFrom:" target="qaO-Br-XRd" id="Z4t-wC-Rfh"/>
+                                </connections>
                             </slider>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qaO-Br-XRd">
                                 <rect key="frame" x="79" y="438" width="173" height="22"/>
@@ -683,6 +686,9 @@
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
+                                <connections>
+                                    <action selector="takeFloatValueFrom:" target="EL0-64-Vnk" id="Tf1-uy-sIh"/>
+                                </connections>
                             </textField>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZDa-Ot-Uru">
                                 <rect key="frame" x="124" y="13" width="82" height="32"/>
@@ -690,6 +696,9 @@
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="mute:" target="XfG-lQ-9wD" id="Nfg-pg-KO3"/>
+                                </connections>
                             </button>
                         </subviews>
                     </view>
